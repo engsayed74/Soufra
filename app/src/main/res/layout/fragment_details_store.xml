@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sayed.soufra.ui.fragments.DetailsStoreFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimens_s"
+    android:padding="@dimen/dimens_s"
+    android:layoutDirection="rtl"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/detailsstore_state"
+        android:textSize="@dimen/txt_size_l"
+        android:layout_marginRight="@dimen/dimens_s" />
+    <TextView
+        android:id="@+id/detailsstore_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_size_l"
+        android:textDirection="rtl"
+        android:layout_weight="1"
+        android:textColor="@color/green"
+        android:hint="@string/detailsstore_state1"/>
+
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_sss"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:padding="@dimen/dimens_s"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimens_s"
+            android:text="@string/detailsstore_city"
+            android:textSize="@dimen/txt_size_l" />
+        <TextView
+            android:id="@+id/detailsstore_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="@string/detailsstore_city1"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_sss"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:padding="@dimen/dimens_s"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimens_s"
+            android:text="@string/detailsstore_region"
+            android:textSize="@dimen/txt_size_l" />
+        <TextView
+            android:id="@+id/detailsstore_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="@string/detailsstore_region1"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_sss"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:padding="@dimen/dimens_s"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimens_s"
+            android:text="@string/detailsstore_minimumrequire"
+            android:textSize="@dimen/txt_size_l" />
+        <TextView
+            android:id="@+id/detailsstore_minimumreq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="@string/detailsstore_minimumrequire1"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_sss"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:padding="@dimen/dimens_s"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimens_s"
+            android:text="@string/detailsstore_commition"
+            android:textSize="@dimen/txt_size_l" />
+        <TextView
+            android:id="@+id/detailsstore_commition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="@string/detailsstore_commition1"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_sss"
+        android:layout_marginTop="@dimen/dimens_s"
+        android:background="@color/black"/>
+
+
+</LinearLayout>

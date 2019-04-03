@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sayed.soufra.ui.fragments.NewAccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/newaccount_restaurantname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/newaccountretname"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:padding="@dimen/dimens_l"
+
+        >
+        <Spinner
+            android:id="@+id/newaccountcity_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:entries="@array/city"
+            android:layoutDirection="rtl"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:padding="@dimen/dimens_l"
+        android:background="@drawable/background"
+        >
+
+        <Spinner
+            android:id="@+id/newaccountregion_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/region"
+            android:layoutDirection="rtl"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/newaccount_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginemail"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        />
+    <EditText
+        android:id="@+id/newaccount_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginpassword"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        />
+
+    <EditText
+        android:id="@+id/newaccount_resetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/newaccountresetpass"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        />
+
+    <Button
+        android:id="@+id/newaccount_btnfollow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_6xl"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@color/green"
+        android:text="@string/newaccountbtn"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/txt_size_xl"/>
+
+</LinearLayout>

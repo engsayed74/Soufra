@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Soufra</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //splash fragment
+    <string name="splashtext">التطبيق الاول لبيع وطلب الطعام</string>
+    <string name="splashsell">طلب طعام</string>
+    <string name="splashbuying">بيع طعام</string>
+    <string name="splashrights">جميع الحقوق محفوظة لتطبيق سفرة 2018</string>
+
+    //login fragment
+    <string name="login">تفضل بتسجيل الدخول</string>
+    <string name="loginemail">البريد الالكتروني</string>
+    <string name="loginpassword">كلمة المرور</string>
+    <string name="loginbtnenter">تسجيل دخول</string>
+    <string name="loginreset">نسيت كلمة المرور؟</string>
+    <string name="loginnewaccount">انشاء حساب جديد</string>
+
+
+    //new account fragment
+    <string name="newaccountretname">اسم المطعم</string>
+    <string name="newaccountresetpass">اعادة كلمة المرور</string>
+    <array name="region">
+        <item>الحي</item>
+    </array>
+    <array name="city">
+        <item>المدينه</item>
+    </array>
+    <string name="newaccountbtn">متابعة</string>
+
+    //personal file fragment
+    <string name="personalfilename">الاسم</string>
+    <string name="personalfilephone">الجوال</string>
+    <string name="personalfileaaccodescription">وصف السكن</string>
+    <string name="personalfilebtnnext">التالي</string>
+
+
+    //new account register fragment
+    <string name="mimirequire">الحد الادني للطلب</string>
+    <string name="deleivery">رسوم التوصيل</string>
+    <string name="deleiverydetails">بيانات التوصيل</string>
+    <string name="whatsup">الواتس اب</string>
+    <string name="storephoto">صورة المتجر</string>
+    <string name="btnregister">تسجيل</string>
+    <array name="types">
+        <item>التصنيفات</item>
+    </array>
+
+    // reset password fragment
+    <string name="resetpassword"> نسيت كلمة المرور</string>
+    <string name="resetenteremail">برجاء ادخال بريدك الالكتروني</string>
+    <string name="resetbtnsend">ارسال</string>
+
+    //new password fragment
+    <string name="newpasscode">برجاء ادخال الكود المرسل اليكم</string>
+    <string name="newpassentry">ادخل كلمة المرور الجديدة</string>
+    <string name="newpassreply">اعادة ادخل كلمة المرور الجديدة </string>
+    <string name="newpassbtnchange">تغيير</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    //menue items
+    <string name="menue_main">الصفحة الرئيسية</string>
+    <string name="menue_myproducts">منتجاتي</string>
+    <string name="menue_myorders">طلباتي</string>
+
+    <string name="menue_requires">الطلبات المقدمة</string>
+    <string name="menue_commition">العمولة</string>
+    <string name="menue_offers">عروضي</string>
+    <string name="menue_aboutapp">عن التطبيق</string>
+    <string name="menue_conditions">الشروط والاحكام</string>
+    <string name="menue_share">شارك التطبيق</string>
+    <string name="menue_contactus">تواصل معنا</string>
+    <string name="menue_exit">تسجيل الخروج</string>
+    <string name="menue_text">مرحبا بك..</string>
+    <string name="menu_text2">تفضل بتسجيل الدخول</string>
+    <string name="menu_notify">التنبيهات</string>
+    <string name="menu_neworder">جديد العرض</string>
+
+    //food order fragment
+    <array name="cityfood">
+        <item>اختر المدينة</item>
+    </array>
+    //
+    <string name="foodname">تاج الفطيرة الدمشقية</string>
+    <string name="foodtypes">برجر سندوتشات مشروبات</string>
+    <string name="opennow">مفتوح الان</string>
+    <string name="minimumrequire">الحد الادني للطلب 60ريال</string>
+    <string name="taxs">رسوم التحصيل  10ريال</string>
+
+    //menu food
+    <string name="menu_sandwishname">ساندوتش برحر تركي</string>
+    <string name="menu_salary">السعر</string>
+    <string name="menu_description">ساندوتش راب برجر محشي بقطع الدجاج الحار المقبلة</string>
+    //fragment reviewcomments
+    <string name="review_text">يسعدنا مشاركتك بتعليق او تقييم</string>
+    <string name="review_btnadd">اضف تقييم او تعليق</string>
+    <string name="review_name">خليل اليزيدي</string>
+    <string name="review_description">عروض ممتازة واداء اكثر من رائع والتوصيل في الوقت المحدد </string>
+    <string name="review_date">11 نوفمبر 2018</string>
+
+    //details fragment store
+    <string name="detailsstore_state">الحالة</string>
+    <string name="detailsstore_state1">مفتوح</string>
+
+    <string name="detailsstore_city">المدينة</string>
+    <string name="detailsstore_city1">الرياض</string>
+
+    <string name="detailsstore_region">الحي</string>
+    <string name="detailsstore_region1">الروضة</string>
+
+    <string name="detailsstore_minimumrequire">الحد الادني</string>
+    <string name="detailsstore_minimumrequire1"> 50 ريال</string>
+
+    <string name="detailsstore_commition">رسوم التحصيل</string>
+    <string name="detailsstore_commition1">10 ريال</string>
+
+    //dialog xml file
+    <string name="addcommentdialog_evaluation">قيم المطعم</string>
+    <string name="addcommentdialog_addcomment">اضف تعليق</string>
+    <string name="addcommentdialog_addcomenthere">اضف تعليق هنا</string>
+    <string name="addcommentdialog_addbtn"> اضف </string>
+
+    //current order fragment
+    <string name="currentorder_name">سلسلة مطاعم جاد</string>
+    <string name="currentorder_price">السعر 100 ريال</string>
+    <string name="currentorder_delivery">التوصيل 10 ريال</string>
+    <string name="currentorder_totalcoast"> الاجمالي 110 ريال</string>
+    <string name="currentorder_ordernum">رقم الطلب</string>
+    <string name="currentorder_receive">استلام</string>
+    <string name="currentorder_rejection">رفض</string>
+
+    // fragment restaurant myorders container
+    <string name="restaurantmyorders_client">العميل:</string>
+    <string name="restaurantmyorders_client1">محمد المحمودي</string>
+    <string name="restaurantmyorders_ordernumber">رقم الطلب:</string>
+    <string name="restaurantmyorders_ordernumber1">31459</string>
+    <string name="restaurantmyorders_price">السعر:</string>
+    <string name="restaurantmyorders_price1">100 ريال</string>
+    <string name="restaurantmyorders_deleiverycost">رسوم التوصيل:</string>
+    <string name="restaurantmyorders_deleiverycost1">10 ريال</string>
+    <string name="restaurantmyorders_total">الاجمالي:</string>
+    <string name="restaurantmyorders_total1">110 ريال</string>
+    <string name="restaurantmyorders_address">العنوان:</string>
+    <string name="restaurantmyorders_address1">127 شارع حسان بن ثابت</string>
+    <string name="restaurantmyorders_refuse">رفض</string>
+    <string name="restaurantmyorders_accept">قبول</string>
+    <string name="restaurantmyorders_phone">01020465289</string>
+    <string name="restaurantmyorders_completeorder">الطلب مكتمل</string>
+
+    //my products fragment
+    <string name="myproducts_btnadd">اضف منتج جديد</string>
+
+    // add product
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_description">وصف مختصر</string>
+    <string name="product_price">السعر</string>
+    <string name="product_period">مدة تجهيز الطلب</string>
+    <string name="product_addphoto">اضافة صورة المنتج</string>
+    <string name="product_add">اضف</string>
+
+
+</resources>

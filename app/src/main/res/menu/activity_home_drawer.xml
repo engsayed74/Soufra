@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/main"
+            android:title="@string/menue_main" />
+        <item
+            android:id="@+id/nav_myproducts"
+            android:icon="@drawable/product"
+            android:title="@string/menue_myproducts" />
+        <item
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/product"
+            android:title="@string/menue_myorders" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/required"
+            android:title="@string/menu_notify"/>
+        <item
+            android:id="@+id/nav_neworder"
+            android:icon="@drawable/neworder"
+            android:title="@string/menu_neworder"/>
+        <item
+            android:id="@+id/nav_required"
+            android:icon="@drawable/required"
+            android:title="@string/menue_requires" />
+        <item
+            android:id="@+id/nav_commition"
+            android:icon="@drawable/commition"
+            android:title="@string/menue_commition" />
+
+            <item
+                android:id="@+id/nav_offers"
+                android:icon="@drawable/offers"
+                android:title="@string/menue_offers" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/menue_aboutapp" />
+        <item
+            android:id="@+id/nav_conditions"
+            android:icon="@drawable/conditions"
+            android:title="@string/menue_conditions" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/menue_share" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="@string/menue_contactus" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/menue_exit"/>
+
+
+    </group>
+
+
+</menu>

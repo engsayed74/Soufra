@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_icon"
+    tools:context="com.example.sayed.soufra.ui.fragments.SplashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ImageView
+    android:layout_width="@dimen/dimen_img"
+    android:layout_height="@dimen/dimen_img"
+    android:src="@drawable/logo"
+    android:scaleType="fitXY"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/album_dp_50"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splashtext"
+        android:textColor="@color/durban_White"
+        android:gravity="center"
+        android:textSize="@dimen/txt_size_l"
+        android:layout_marginTop="@dimen/dimens_l"/>
+    <Button
+        android:id="@+id/splash_btnfoodorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splashsell"
+        android:textSize="@dimen/txt_size_l"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@color/yellow"/>
+
+    <Button
+        android:id="@+id/splash_foodselling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splashbuying"
+        android:textSize="@dimen/txt_size_l"
+        android:layout_marginTop="@dimen/dimens_m"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@color/yellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimens_xxxxl">
+        <ImageView
+        android:layout_width="@dimen/album_dp_50"
+        android:layout_height="@dimen/album_dp_50"
+        android:src="@drawable/instagram"/>
+
+        <ImageView
+            android:layout_width="@dimen/album_dp_50"
+            android:layout_height="@dimen/album_dp_50"
+            android:src="@drawable/twitter"
+            android:layout_marginStart="@dimen/dimens_xl"
+            android:layout_marginEnd="@dimen/dimens_xxl"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/splashrights"
+        android:textColor="@color/colorwhite"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimens_xxxxl"/>
+
+
+</LinearLayout>

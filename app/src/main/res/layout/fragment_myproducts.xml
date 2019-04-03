@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.sayed.soufra.ui.fragments.MyproductsFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/myproducts_rv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </android.support.v7.widget.RecyclerView>
+
+   <Button
+       android:layout_below="@+id/myproducts_rv"
+       android:id="@+id/myproducts_btn_add"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/dimens_xxxxl"
+       android:layout_marginStart="@dimen/dimens_m"
+       android:layout_marginEnd="@dimen/dimens_m"
+       android:background="@color/black"
+       android:text="@string/myproducts_btnadd"
+       android:textColor="@color/colorwhite"
+       android:textSize="@dimen/txt_size_xxl" />
+
+</RelativeLayout>
+
+
+</LinearLayout>

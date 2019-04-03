@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sayed.soufra.ui.fragments.LoginFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/txt_size_xl"
+        android:drawableTint="@color/yellow"
+        android:layout_marginTop="@dimen/txt_size_xl"
+        android:paddingRight="@dimen/dimens_6xl"
+        android:drawableRight="@drawable/ic_perm_identity_black_24dp"/>
+
+    <EditText
+        android:id="@+id/loginbtn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginemail"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        android:gravity="start"
+        />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginpassword"
+        android:layout_marginTop="@dimen/dimens_l"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:padding="@dimen/dimens_l"
+        android:gravity="start"
+        />
+  <Button
+      android:id="@+id/login_btnregister"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/txt_size_xl"
+    android:layout_marginEnd="@dimen/txt_size_xl"
+    android:layout_marginTop="@dimen/txt_size_xl"
+    android:text="@string/loginbtnenter"
+    android:gravity="center"
+      android:textColor="@color/colorwhite"
+      android:background="@color/green"
+      android:textSize="@dimen/txt_size_xl"
+    />
+
+    <TextView
+        android:id="@+id/login_resetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginreset"
+        android:gravity="center"
+        android:paddingTop="@dimen/txt_size_xl"
+        android:textSize="@dimen/txt_size_xl"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        />
+    <Button
+        android:id="@+id/login_btncreate_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/txt_size_xl"
+        android:layout_marginEnd="@dimen/txt_size_xl"
+        android:layout_marginTop="@dimen/txt_size_xl"
+        android:text="@string/loginnewaccount"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:textSize="@dimen/txt_size_xl"
+        />
+
+</LinearLayout>

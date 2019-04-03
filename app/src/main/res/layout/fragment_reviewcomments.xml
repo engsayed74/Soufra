@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sayed.soufra.ui.fragments.ReviewcommentsFragment">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/review_text"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/txt_size_l"
+    android:layout_marginTop="@dimen/dimens_xxl"
+    android:textStyle="bold"/>
+    <Button
+        android:id="@+id/review_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/review_btnadd"
+        android:textSize="@dimen/txt_size_xl"
+        android:drawableRight="@drawable/ic_star_border_black_24dp"
+        android:drawableTint="@color/durban_White"
+        android:gravity="center_vertical"
+        android:background="@color/yellow"
+        android:textStyle="bold"
+        android:textColor="@color/durban_White"
+        android:layout_marginStart="@dimen/dimens_xxxl"
+        android:layout_marginEnd="@dimen/dimens_xxxl"
+        android:paddingRight="@dimen/dimens_xxxxl"
+        android:layout_marginTop="@dimen/dimens_l"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/review_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_l">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

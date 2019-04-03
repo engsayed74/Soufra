@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/restaurant_neworder_layout"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/restaurantneworder_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_200"
+        android:layout_marginTop="@dimen/dimens_s"
+        app:cardBackgroundColor="@color/colorwhite"
+        app:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:id="@+id/neworder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl">
+
+            <ImageView
+                android:id="@+id/restaurant_neworder"
+                android:layout_width="@dimen/album_dp_100"
+                android:layout_height="@dimen/album_dp_100"
+                android:layout_marginEnd="@dimen/dimens_m"
+                android:layout_marginStart="@dimen/dimens_m"
+                android:layout_marginTop="@dimen/dimens_m"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/restaurant_neworder"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_s"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/restaurantmyorders_client"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_clientname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/restaurantmyorders_client1"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/restaurantmyorders_ordernumber"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_ordernumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        android:text="@string/restaurantmyorders_ordernumber1"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_s"
+                    android:background="@color/grey"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_price"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_price1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_s"
+                    android:background="@color/grey"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_deleiverycost"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_deleiverycost1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_s"
+                    android:background="@color/grey"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_total"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_total1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_s"
+                    android:background="@color/grey"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/restaurantmyorders_address"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_size_l"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/restaurant_neworder_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="end"
+                        android:text="@string/restaurantmyorders_address1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:id="@+id/restaurant_neworder_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:layout_below="@id/restaurantneworder_cardview"
+
+        tools:ignore="NotSibling">
+        <Button
+            android:id="@+id/restaurant_neworder_phonenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurantmyorders_phone"
+            android:textColor="@color/durban_White"
+            android:layout_marginRight="@dimen/dimens_m"
+            android:textSize="@dimen/txt_size_l"
+            android:background="@color/red_error"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/restaurant_neworder_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:layout_marginLeft="@dimen/dimens_m"
+            android:text="@string/restaurantmyorders_accept"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/txt_size_l"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimens_m" />
+        <Button
+            android:id="@+id/restaurant_neworder_refuse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurantmyorders_refuse"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/txt_size_l"
+            android:background="@color/black"
+            android:layout_marginLeft="@dimen/dimens_m"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/restaurant_newordercomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurant_neworder_linearlayout"
+        android:layout_marginTop="@dimen/dimens_m"
+        android:text="@string/restaurantmyorders_completeorder"
+        android:textSize="@dimen/txt_size_l"
+        android:gravity="center_horizontal"
+        android:background="@color/green"
+        android:textColor="@color/colorwhite"
+        android:paddingTop="@dimen/dimens_s"
+        android:paddingBottom="@dimen/dimens_s"/>
+
+</RelativeLayout>

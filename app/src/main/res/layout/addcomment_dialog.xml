@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/addcommentdialog_evaluation"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/txt_size_xl"
+    android:layout_marginTop="@dimen/dimens_m"
+    android:textStyle="bold"/>
+    <RatingBar
+        android:id="@+id/addcomment_dialog_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimens_m"
+        android:numStars="5"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:theme="@style/RatingBar"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addcommentdialog_addcomment"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/txt_size_xl"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/addcomment_dialog_addcomment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_170"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@drawable/background"
+        android:layout_marginTop="@dimen/dimens_m"
+        android:hint="@string/addcommentdialog_addcomenthere"
+        android:gravity="start"
+        android:paddingRight="@dimen/dimens_m"
+        android:textSize="@dimen/txt_size_l"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/addcomment_dialog_btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens_l"
+        android:layout_marginEnd="@dimen/dimens_l"
+        android:background="@color/yellow"
+        android:text="@string/addcommentdialog_addbtn"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/txt_size_xxl"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/dimens_m"
+        android:layout_marginTop="@dimen/dimens_s"/>
+
+</LinearLayout>
